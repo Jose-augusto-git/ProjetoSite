@@ -6,21 +6,74 @@
 }
 
 body{
-    background:rgb(11, 124, 96);
+    background:rgb(255, 255, 255);
 
 }
 
-main{
-    background:white;
-    width:500px;
-    margin:auto;
-    padding:10px;
-    box-shadow: 5px  rgba(0, 0, 0, 0.75);
-    
 
-    
-}
 
 img.lado{
     float:right
 }
+
+.card-direita{
+    float: right;
+}
+
+.navbar-border{
+    border-bottom: 2px solid rgba(0, 0, 0, 0.445);
+    
+}
+
+.navbar-padding{
+    margin-left: 22em;
+    
+
+}
+
+a.botao{
+    border: 1px solid rgb(0, 0, 0) ;
+    text-decoration: none;
+    padding:.5em;
+    box-shadow: 5px 5px 0 rgb(0, 0, 0);
+    border-radius: 5px;
+    color: black;
+
+}
+
+.botao a:hover{
+    text-decoration: none;   
+    padding:.5em;
+    border: 1px solid rgb(0, 0, 0) ;
+    border-radius: 40px;
+    
+
+
+
+}
+
+.botao a:active{
+position:relative;
+box-shadow:none;
+transition: 0.3s;
+
+
+
+
+}
+
+/*Mudando o estilo da barra de rolagem*/
+
+
+body::-webkit-scrollbar {
+    width: 12px;               /* width of the entire scrollbar */
+  }
+  
+  body::-webkit-scrollbar-track {
+    background-color: #f5f5f5;
+  }
+  
+  
+  body::-webkit-scrollbar-thumb {
+    background-color: #0011ff;
+  }
